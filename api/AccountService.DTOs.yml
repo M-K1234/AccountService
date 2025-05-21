@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: AccountService.DTOs
+  commentId: N:AccountService.DTOs
+  id: AccountService.DTOs
+  children:
+  - AccountService.DTOs.AccountDto
+  - AccountService.DTOs.CreateAccountDto
+  - AccountService.DTOs.UpdateAccountDto
+  langs:
+  - csharp
+  - vb
+  name: AccountService.DTOs
+  nameWithType: AccountService.DTOs
+  fullName: AccountService.DTOs
+  type: Namespace
+  assemblies:
+  - AccountService
+references:
+- uid: AccountService.DTOs.AccountDto
+  commentId: T:AccountService.DTOs.AccountDto
+  href: AccountService.DTOs.AccountDto.html
+  name: AccountDto
+  nameWithType: AccountDto
+  fullName: AccountService.DTOs.AccountDto
+- uid: AccountService.DTOs.CreateAccountDto
+  commentId: T:AccountService.DTOs.CreateAccountDto
+  parent: AccountService.DTOs
+  href: AccountService.DTOs.CreateAccountDto.html
+  name: CreateAccountDto
+  nameWithType: CreateAccountDto
+  fullName: AccountService.DTOs.CreateAccountDto
+- uid: AccountService.DTOs.UpdateAccountDto
+  commentId: T:AccountService.DTOs.UpdateAccountDto
+  parent: AccountService.DTOs
+  href: AccountService.DTOs.UpdateAccountDto.html
+  name: UpdateAccountDto
+  nameWithType: UpdateAccountDto
+  fullName: AccountService.DTOs.UpdateAccountDto
+- uid: AccountService.DTOs
+  commentId: N:AccountService.DTOs
+  href: AccountService.html
+  name: AccountService.DTOs
+  nameWithType: AccountService.DTOs
+  fullName: AccountService.DTOs
+  spec.csharp:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.DTOs
+    name: DTOs
+    href: AccountService.DTOs.html
+  spec.vb:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.DTOs
+    name: DTOs
+    href: AccountService.DTOs.html

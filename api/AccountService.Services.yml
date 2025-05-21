@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: AccountService.Services
+  commentId: N:AccountService.Services
+  id: AccountService.Services
+  children:
+  - AccountService.Services.AccountService
+  - AccountService.Services.IAccountService
+  langs:
+  - csharp
+  - vb
+  name: AccountService.Services
+  nameWithType: AccountService.Services
+  fullName: AccountService.Services
+  type: Namespace
+  assemblies:
+  - AccountService
+references:
+- uid: AccountService.Services.AccountService
+  commentId: T:AccountService.Services.AccountService
+  href: AccountService.Services.AccountService.html
+  name: AccountService
+  nameWithType: AccountService
+  fullName: AccountService.Services.AccountService
+- uid: AccountService.Services.IAccountService
+  commentId: T:AccountService.Services.IAccountService
+  parent: AccountService.Services
+  href: AccountService.Services.IAccountService.html
+  name: IAccountService
+  nameWithType: IAccountService
+  fullName: AccountService.Services.IAccountService
+- uid: AccountService.Services
+  commentId: N:AccountService.Services
+  href: AccountService.html
+  name: AccountService.Services
+  nameWithType: AccountService.Services
+  fullName: AccountService.Services
+  spec.csharp:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.Services
+    name: Services
+    href: AccountService.Services.html
+  spec.vb:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.Services
+    name: Services
+    href: AccountService.Services.html

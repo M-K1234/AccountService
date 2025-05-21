@@ -1,0 +1,341 @@
+### YamlMime:ManagedReference
+items:
+- uid: AccountService.Repositories.IAccountRepository
+  commentId: T:AccountService.Repositories.IAccountRepository
+  id: IAccountRepository
+  parent: AccountService.Repositories
+  children:
+  - AccountService.Repositories.IAccountRepository.CreateAsync(AccountService.Models.Account)
+  - AccountService.Repositories.IAccountRepository.GetAllAsync
+  - AccountService.Repositories.IAccountRepository.GetByIdAsync(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IAccountRepository
+  nameWithType: IAccountRepository
+  fullName: AccountService.Repositories.IAccountRepository
+  type: Interface
+  source:
+    id: IAccountRepository
+    path: C:\Users\ali88\Desktop\Developing large systems\Exam project DLS - Banking system\accountservice\AccountService\Repositories\IAccountRepository.cs
+    startLine: 4
+  assemblies:
+  - AccountService
+  namespace: AccountService.Repositories
+  syntax:
+    content: public interface IAccountRepository
+    content.vb: Public Interface IAccountRepository
+- uid: AccountService.Repositories.IAccountRepository.CreateAsync(AccountService.Models.Account)
+  commentId: M:AccountService.Repositories.IAccountRepository.CreateAsync(AccountService.Models.Account)
+  id: CreateAsync(AccountService.Models.Account)
+  parent: AccountService.Repositories.IAccountRepository
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(Account)
+  nameWithType: IAccountRepository.CreateAsync(Account)
+  fullName: AccountService.Repositories.IAccountRepository.CreateAsync(AccountService.Models.Account)
+  type: Method
+  source:
+    id: CreateAsync
+    path: C:\Users\ali88\Desktop\Developing large systems\Exam project DLS - Banking system\accountservice\AccountService\Repositories\IAccountRepository.cs
+    startLine: 6
+  assemblies:
+  - AccountService
+  namespace: AccountService.Repositories
+  syntax:
+    content: Task<Account> CreateAsync(Account account)
+    parameters:
+    - id: account
+      type: AccountService.Models.Account
+    return:
+      type: System.Threading.Tasks.Task{AccountService.Models.Account}
+    content.vb: Function CreateAsync(account As Account) As Task(Of Account)
+  overload: AccountService.Repositories.IAccountRepository.CreateAsync*
+- uid: AccountService.Repositories.IAccountRepository.GetByIdAsync(System.String)
+  commentId: M:AccountService.Repositories.IAccountRepository.GetByIdAsync(System.String)
+  id: GetByIdAsync(System.String)
+  parent: AccountService.Repositories.IAccountRepository
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync(string)
+  nameWithType: IAccountRepository.GetByIdAsync(string)
+  fullName: AccountService.Repositories.IAccountRepository.GetByIdAsync(string)
+  type: Method
+  source:
+    id: GetByIdAsync
+    path: C:\Users\ali88\Desktop\Developing large systems\Exam project DLS - Banking system\accountservice\AccountService\Repositories\IAccountRepository.cs
+    startLine: 7
+  assemblies:
+  - AccountService
+  namespace: AccountService.Repositories
+  syntax:
+    content: Task<Account?> GetByIdAsync(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{AccountService.Models.Account}
+    content.vb: Function GetByIdAsync(id As String) As Task(Of Account)
+  overload: AccountService.Repositories.IAccountRepository.GetByIdAsync*
+  nameWithType.vb: IAccountRepository.GetByIdAsync(String)
+  fullName.vb: AccountService.Repositories.IAccountRepository.GetByIdAsync(String)
+  name.vb: GetByIdAsync(String)
+- uid: AccountService.Repositories.IAccountRepository.GetAllAsync
+  commentId: M:AccountService.Repositories.IAccountRepository.GetAllAsync
+  id: GetAllAsync
+  parent: AccountService.Repositories.IAccountRepository
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync()
+  nameWithType: IAccountRepository.GetAllAsync()
+  fullName: AccountService.Repositories.IAccountRepository.GetAllAsync()
+  type: Method
+  source:
+    id: GetAllAsync
+    path: C:\Users\ali88\Desktop\Developing large systems\Exam project DLS - Banking system\accountservice\AccountService\Repositories\IAccountRepository.cs
+    startLine: 8
+  assemblies:
+  - AccountService
+  namespace: AccountService.Repositories
+  syntax:
+    content: Task<IEnumerable<Account>> GetAllAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{AccountService.Models.Account}}
+    content.vb: Function GetAllAsync() As Task(Of IEnumerable(Of Account))
+  overload: AccountService.Repositories.IAccountRepository.GetAllAsync*
+references:
+- uid: AccountService.Repositories
+  commentId: N:AccountService.Repositories
+  href: AccountService.html
+  name: AccountService.Repositories
+  nameWithType: AccountService.Repositories
+  fullName: AccountService.Repositories
+  spec.csharp:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.Repositories
+    name: Repositories
+    href: AccountService.Repositories.html
+  spec.vb:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.Repositories
+    name: Repositories
+    href: AccountService.Repositories.html
+- uid: AccountService.Repositories.IAccountRepository.CreateAsync*
+  commentId: Overload:AccountService.Repositories.IAccountRepository.CreateAsync
+  href: AccountService.Repositories.IAccountRepository.html#AccountService_Repositories_IAccountRepository_CreateAsync_AccountService_Models_Account_
+  name: CreateAsync
+  nameWithType: IAccountRepository.CreateAsync
+  fullName: AccountService.Repositories.IAccountRepository.CreateAsync
+- uid: AccountService.Models.Account
+  commentId: T:AccountService.Models.Account
+  parent: AccountService.Models
+  href: AccountService.Models.Account.html
+  name: Account
+  nameWithType: Account
+  fullName: AccountService.Models.Account
+- uid: System.Threading.Tasks.Task{AccountService.Models.Account}
+  commentId: T:System.Threading.Tasks.Task{AccountService.Models.Account}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Account>
+  nameWithType: Task<Account>
+  fullName: System.Threading.Tasks.Task<AccountService.Models.Account>
+  nameWithType.vb: Task(Of Account)
+  fullName.vb: System.Threading.Tasks.Task(Of AccountService.Models.Account)
+  name.vb: Task(Of Account)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: AccountService.Models.Account
+    name: Account
+    href: AccountService.Models.Account.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: AccountService.Models.Account
+    name: Account
+    href: AccountService.Models.Account.html
+  - name: )
+- uid: AccountService.Models
+  commentId: N:AccountService.Models
+  href: AccountService.html
+  name: AccountService.Models
+  nameWithType: AccountService.Models
+  fullName: AccountService.Models
+  spec.csharp:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.Models
+    name: Models
+    href: AccountService.Models.html
+  spec.vb:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.Models
+    name: Models
+    href: AccountService.Models.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: AccountService.Repositories.IAccountRepository.GetByIdAsync*
+  commentId: Overload:AccountService.Repositories.IAccountRepository.GetByIdAsync
+  href: AccountService.Repositories.IAccountRepository.html#AccountService_Repositories_IAccountRepository_GetByIdAsync_System_String_
+  name: GetByIdAsync
+  nameWithType: IAccountRepository.GetByIdAsync
+  fullName: AccountService.Repositories.IAccountRepository.GetByIdAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AccountService.Repositories.IAccountRepository.GetAllAsync*
+  commentId: Overload:AccountService.Repositories.IAccountRepository.GetAllAsync
+  href: AccountService.Repositories.IAccountRepository.html#AccountService_Repositories_IAccountRepository_GetAllAsync
+  name: GetAllAsync
+  nameWithType: IAccountRepository.GetAllAsync
+  fullName: AccountService.Repositories.IAccountRepository.GetAllAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{AccountService.Models.Account}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{AccountService.Models.Account}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<IEnumerable<Account>>
+  nameWithType: Task<IEnumerable<Account>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<AccountService.Models.Account>>
+  nameWithType.vb: Task(Of IEnumerable(Of Account))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.IEnumerable(Of AccountService.Models.Account))
+  name.vb: Task(Of IEnumerable(Of Account))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: AccountService.Models.Account
+    name: Account
+    href: AccountService.Models.Account.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: AccountService.Models.Account
+    name: Account
+    href: AccountService.Models.Account.html
+  - name: )
+  - name: )

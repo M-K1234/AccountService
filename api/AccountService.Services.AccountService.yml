@@ -1,0 +1,937 @@
+### YamlMime:ManagedReference
+items:
+- uid: AccountService.Services.AccountService
+  commentId: T:AccountService.Services.AccountService
+  id: AccountService
+  parent: AccountService.Services
+  children:
+  - AccountService.Services.AccountService.#ctor(AccountService.Repositories.IAccountRepository)
+  - AccountService.Services.AccountService.CreateAccountAsync(AccountService.DTOs.CreateAccountDto)
+  - AccountService.Services.AccountService.DeleteAccountAsync(System.String)
+  - AccountService.Services.AccountService.GetAccountAsync(System.String)
+  - AccountService.Services.AccountService.GetAllAccountsAsync
+  - AccountService.Services.AccountService.UpdateAccountAsync(System.String,AccountService.DTOs.UpdateAccountDto)
+  langs:
+  - csharp
+  - vb
+  name: AccountService
+  nameWithType: AccountService
+  fullName: AccountService.Services.AccountService
+  type: Class
+  source:
+    id: AccountService
+    path: C:\Users\ali88\Desktop\Developing large systems\Exam project DLS - Banking system\accountservice\AccountService\Services\AccountService.cs
+    startLine: 8
+  assemblies:
+  - AccountService
+  namespace: AccountService.Services
+  syntax:
+    content: 'public class AccountService : IAccountService'
+    content.vb: Public Class AccountService Implements IAccountService
+  inheritance:
+  - System.Object
+  implements:
+  - AccountService.Services.IAccountService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: AccountService.Services.AccountService.#ctor(AccountService.Repositories.IAccountRepository)
+  commentId: M:AccountService.Services.AccountService.#ctor(AccountService.Repositories.IAccountRepository)
+  id: '#ctor(AccountService.Repositories.IAccountRepository)'
+  parent: AccountService.Services.AccountService
+  langs:
+  - csharp
+  - vb
+  name: AccountService(IAccountRepository)
+  nameWithType: AccountService.AccountService(IAccountRepository)
+  fullName: AccountService.Services.AccountService.AccountService(AccountService.Repositories.IAccountRepository)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\ali88\Desktop\Developing large systems\Exam project DLS - Banking system\accountservice\AccountService\Services\AccountService.cs
+    startLine: 12
+  assemblies:
+  - AccountService
+  namespace: AccountService.Services
+  syntax:
+    content: public AccountService(IAccountRepository repository)
+    parameters:
+    - id: repository
+      type: AccountService.Repositories.IAccountRepository
+    content.vb: Public Sub New(repository As IAccountRepository)
+  overload: AccountService.Services.AccountService.#ctor*
+  nameWithType.vb: AccountService.New(IAccountRepository)
+  fullName.vb: AccountService.Services.AccountService.New(AccountService.Repositories.IAccountRepository)
+  name.vb: New(IAccountRepository)
+- uid: AccountService.Services.AccountService.CreateAccountAsync(AccountService.DTOs.CreateAccountDto)
+  commentId: M:AccountService.Services.AccountService.CreateAccountAsync(AccountService.DTOs.CreateAccountDto)
+  id: CreateAccountAsync(AccountService.DTOs.CreateAccountDto)
+  parent: AccountService.Services.AccountService
+  langs:
+  - csharp
+  - vb
+  name: CreateAccountAsync(CreateAccountDto)
+  nameWithType: AccountService.CreateAccountAsync(CreateAccountDto)
+  fullName: AccountService.Services.AccountService.CreateAccountAsync(AccountService.DTOs.CreateAccountDto)
+  type: Method
+  source:
+    id: CreateAccountAsync
+    path: C:\Users\ali88\Desktop\Developing large systems\Exam project DLS - Banking system\accountservice\AccountService\Services\AccountService.cs
+    startLine: 17
+  assemblies:
+  - AccountService
+  namespace: AccountService.Services
+  example: []
+  syntax:
+    content: public Task<AccountDto> CreateAccountAsync(CreateAccountDto dto)
+    parameters:
+    - id: dto
+      type: AccountService.DTOs.CreateAccountDto
+    return:
+      type: System.Threading.Tasks.Task{AccountService.DTOs.AccountDto}
+    content.vb: Public Function CreateAccountAsync(dto As CreateAccountDto) As Task(Of AccountDto)
+  overload: AccountService.Services.AccountService.CreateAccountAsync*
+  implements:
+  - AccountService.Services.IAccountService.CreateAccountAsync(AccountService.DTOs.CreateAccountDto)
+- uid: AccountService.Services.AccountService.GetAccountAsync(System.String)
+  commentId: M:AccountService.Services.AccountService.GetAccountAsync(System.String)
+  id: GetAccountAsync(System.String)
+  parent: AccountService.Services.AccountService
+  langs:
+  - csharp
+  - vb
+  name: GetAccountAsync(string)
+  nameWithType: AccountService.GetAccountAsync(string)
+  fullName: AccountService.Services.AccountService.GetAccountAsync(string)
+  type: Method
+  source:
+    id: GetAccountAsync
+    path: C:\Users\ali88\Desktop\Developing large systems\Exam project DLS - Banking system\accountservice\AccountService\Services\AccountService.cs
+    startLine: 38
+  assemblies:
+  - AccountService
+  namespace: AccountService.Services
+  example: []
+  syntax:
+    content: public Task<AccountDto?> GetAccountAsync(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{AccountService.DTOs.AccountDto}
+    content.vb: Public Function GetAccountAsync(id As String) As Task(Of AccountDto)
+  overload: AccountService.Services.AccountService.GetAccountAsync*
+  implements:
+  - AccountService.Services.IAccountService.GetAccountAsync(System.String)
+  nameWithType.vb: AccountService.GetAccountAsync(String)
+  fullName.vb: AccountService.Services.AccountService.GetAccountAsync(String)
+  name.vb: GetAccountAsync(String)
+- uid: AccountService.Services.AccountService.GetAllAccountsAsync
+  commentId: M:AccountService.Services.AccountService.GetAllAccountsAsync
+  id: GetAllAccountsAsync
+  parent: AccountService.Services.AccountService
+  langs:
+  - csharp
+  - vb
+  name: GetAllAccountsAsync()
+  nameWithType: AccountService.GetAllAccountsAsync()
+  fullName: AccountService.Services.AccountService.GetAllAccountsAsync()
+  type: Method
+  source:
+    id: GetAllAccountsAsync
+    path: C:\Users\ali88\Desktop\Developing large systems\Exam project DLS - Banking system\accountservice\AccountService\Services\AccountService.cs
+    startLine: 52
+  assemblies:
+  - AccountService
+  namespace: AccountService.Services
+  example: []
+  syntax:
+    content: public Task<IEnumerable<AccountDto>> GetAllAccountsAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{AccountService.DTOs.AccountDto}}
+    content.vb: Public Function GetAllAccountsAsync() As Task(Of IEnumerable(Of AccountDto))
+  overload: AccountService.Services.AccountService.GetAllAccountsAsync*
+  implements:
+  - AccountService.Services.IAccountService.GetAllAccountsAsync
+- uid: AccountService.Services.AccountService.UpdateAccountAsync(System.String,AccountService.DTOs.UpdateAccountDto)
+  commentId: M:AccountService.Services.AccountService.UpdateAccountAsync(System.String,AccountService.DTOs.UpdateAccountDto)
+  id: UpdateAccountAsync(System.String,AccountService.DTOs.UpdateAccountDto)
+  parent: AccountService.Services.AccountService
+  langs:
+  - csharp
+  - vb
+  name: UpdateAccountAsync(string, UpdateAccountDto)
+  nameWithType: AccountService.UpdateAccountAsync(string, UpdateAccountDto)
+  fullName: AccountService.Services.AccountService.UpdateAccountAsync(string, AccountService.DTOs.UpdateAccountDto)
+  type: Method
+  source:
+    id: UpdateAccountAsync
+    path: C:\Users\ali88\Desktop\Developing large systems\Exam project DLS - Banking system\accountservice\AccountService\Services\AccountService.cs
+    startLine: 64
+  assemblies:
+  - AccountService
+  namespace: AccountService.Services
+  example: []
+  syntax:
+    content: public Task<AccountDto?> UpdateAccountAsync(string id, UpdateAccountDto dto)
+    parameters:
+    - id: id
+      type: System.String
+    - id: dto
+      type: AccountService.DTOs.UpdateAccountDto
+    return:
+      type: System.Threading.Tasks.Task{AccountService.DTOs.AccountDto}
+    content.vb: Public Function UpdateAccountAsync(id As String, dto As UpdateAccountDto) As Task(Of AccountDto)
+  overload: AccountService.Services.AccountService.UpdateAccountAsync*
+  implements:
+  - AccountService.Services.IAccountService.UpdateAccountAsync(System.String,AccountService.DTOs.UpdateAccountDto)
+  nameWithType.vb: AccountService.UpdateAccountAsync(String, UpdateAccountDto)
+  fullName.vb: AccountService.Services.AccountService.UpdateAccountAsync(String, AccountService.DTOs.UpdateAccountDto)
+  name.vb: UpdateAccountAsync(String, UpdateAccountDto)
+- uid: AccountService.Services.AccountService.DeleteAccountAsync(System.String)
+  commentId: M:AccountService.Services.AccountService.DeleteAccountAsync(System.String)
+  id: DeleteAccountAsync(System.String)
+  parent: AccountService.Services.AccountService
+  langs:
+  - csharp
+  - vb
+  name: DeleteAccountAsync(string)
+  nameWithType: AccountService.DeleteAccountAsync(string)
+  fullName: AccountService.Services.AccountService.DeleteAccountAsync(string)
+  type: Method
+  source:
+    id: DeleteAccountAsync
+    path: C:\Users\ali88\Desktop\Developing large systems\Exam project DLS - Banking system\accountservice\AccountService\Services\AccountService.cs
+    startLine: 86
+  assemblies:
+  - AccountService
+  namespace: AccountService.Services
+  example: []
+  syntax:
+    content: public Task<bool> DeleteAccountAsync(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function DeleteAccountAsync(id As String) As Task(Of Boolean)
+  overload: AccountService.Services.AccountService.DeleteAccountAsync*
+  implements:
+  - AccountService.Services.IAccountService.DeleteAccountAsync(System.String)
+  nameWithType.vb: AccountService.DeleteAccountAsync(String)
+  fullName.vb: AccountService.Services.AccountService.DeleteAccountAsync(String)
+  name.vb: DeleteAccountAsync(String)
+references:
+- uid: AccountService.Services
+  commentId: N:AccountService.Services
+  href: AccountService.html
+  name: AccountService.Services
+  nameWithType: AccountService.Services
+  fullName: AccountService.Services
+  spec.csharp:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.Services
+    name: Services
+    href: AccountService.Services.html
+  spec.vb:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.Services
+    name: Services
+    href: AccountService.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: AccountService.Services.IAccountService
+  commentId: T:AccountService.Services.IAccountService
+  parent: AccountService.Services
+  href: AccountService.Services.IAccountService.html
+  name: IAccountService
+  nameWithType: IAccountService
+  fullName: AccountService.Services.IAccountService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AccountService.Services.AccountService.#ctor*
+  commentId: Overload:AccountService.Services.AccountService.#ctor
+  href: AccountService.Services.AccountService.html#AccountService_Services_AccountService__ctor_AccountService_Repositories_IAccountRepository_
+  name: AccountService
+  nameWithType: AccountService.AccountService
+  fullName: AccountService.Services.AccountService.AccountService
+  nameWithType.vb: AccountService.New
+  fullName.vb: AccountService.Services.AccountService.New
+  name.vb: New
+- uid: AccountService.Repositories.IAccountRepository
+  commentId: T:AccountService.Repositories.IAccountRepository
+  parent: AccountService.Repositories
+  href: AccountService.Repositories.IAccountRepository.html
+  name: IAccountRepository
+  nameWithType: IAccountRepository
+  fullName: AccountService.Repositories.IAccountRepository
+- uid: AccountService.Repositories
+  commentId: N:AccountService.Repositories
+  href: AccountService.html
+  name: AccountService.Repositories
+  nameWithType: AccountService.Repositories
+  fullName: AccountService.Repositories
+  spec.csharp:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.Repositories
+    name: Repositories
+    href: AccountService.Repositories.html
+  spec.vb:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.Repositories
+    name: Repositories
+    href: AccountService.Repositories.html
+- uid: AccountService.Services.AccountService.CreateAccountAsync*
+  commentId: Overload:AccountService.Services.AccountService.CreateAccountAsync
+  href: AccountService.Services.AccountService.html#AccountService_Services_AccountService_CreateAccountAsync_AccountService_DTOs_CreateAccountDto_
+  name: CreateAccountAsync
+  nameWithType: AccountService.CreateAccountAsync
+  fullName: AccountService.Services.AccountService.CreateAccountAsync
+- uid: AccountService.Services.IAccountService.CreateAccountAsync(AccountService.DTOs.CreateAccountDto)
+  commentId: M:AccountService.Services.IAccountService.CreateAccountAsync(AccountService.DTOs.CreateAccountDto)
+  parent: AccountService.Services.IAccountService
+  href: AccountService.Services.IAccountService.html#AccountService_Services_IAccountService_CreateAccountAsync_AccountService_DTOs_CreateAccountDto_
+  name: CreateAccountAsync(CreateAccountDto)
+  nameWithType: IAccountService.CreateAccountAsync(CreateAccountDto)
+  fullName: AccountService.Services.IAccountService.CreateAccountAsync(AccountService.DTOs.CreateAccountDto)
+  spec.csharp:
+  - uid: AccountService.Services.IAccountService.CreateAccountAsync(AccountService.DTOs.CreateAccountDto)
+    name: CreateAccountAsync
+    href: AccountService.Services.IAccountService.html#AccountService_Services_IAccountService_CreateAccountAsync_AccountService_DTOs_CreateAccountDto_
+  - name: (
+  - uid: AccountService.DTOs.CreateAccountDto
+    name: CreateAccountDto
+    href: AccountService.DTOs.CreateAccountDto.html
+  - name: )
+  spec.vb:
+  - uid: AccountService.Services.IAccountService.CreateAccountAsync(AccountService.DTOs.CreateAccountDto)
+    name: CreateAccountAsync
+    href: AccountService.Services.IAccountService.html#AccountService_Services_IAccountService_CreateAccountAsync_AccountService_DTOs_CreateAccountDto_
+  - name: (
+  - uid: AccountService.DTOs.CreateAccountDto
+    name: CreateAccountDto
+    href: AccountService.DTOs.CreateAccountDto.html
+  - name: )
+- uid: AccountService.DTOs.CreateAccountDto
+  commentId: T:AccountService.DTOs.CreateAccountDto
+  parent: AccountService.DTOs
+  href: AccountService.DTOs.CreateAccountDto.html
+  name: CreateAccountDto
+  nameWithType: CreateAccountDto
+  fullName: AccountService.DTOs.CreateAccountDto
+- uid: System.Threading.Tasks.Task{AccountService.DTOs.AccountDto}
+  commentId: T:System.Threading.Tasks.Task{AccountService.DTOs.AccountDto}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<AccountDto>
+  nameWithType: Task<AccountDto>
+  fullName: System.Threading.Tasks.Task<AccountService.DTOs.AccountDto>
+  nameWithType.vb: Task(Of AccountDto)
+  fullName.vb: System.Threading.Tasks.Task(Of AccountService.DTOs.AccountDto)
+  name.vb: Task(Of AccountDto)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: AccountService.DTOs.AccountDto
+    name: AccountDto
+    href: AccountService.DTOs.AccountDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: AccountService.DTOs.AccountDto
+    name: AccountDto
+    href: AccountService.DTOs.AccountDto.html
+  - name: )
+- uid: AccountService.DTOs
+  commentId: N:AccountService.DTOs
+  href: AccountService.html
+  name: AccountService.DTOs
+  nameWithType: AccountService.DTOs
+  fullName: AccountService.DTOs
+  spec.csharp:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.DTOs
+    name: DTOs
+    href: AccountService.DTOs.html
+  spec.vb:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.DTOs
+    name: DTOs
+    href: AccountService.DTOs.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: AccountService.Services.AccountService.GetAccountAsync*
+  commentId: Overload:AccountService.Services.AccountService.GetAccountAsync
+  href: AccountService.Services.AccountService.html#AccountService_Services_AccountService_GetAccountAsync_System_String_
+  name: GetAccountAsync
+  nameWithType: AccountService.GetAccountAsync
+  fullName: AccountService.Services.AccountService.GetAccountAsync
+- uid: AccountService.Services.IAccountService.GetAccountAsync(System.String)
+  commentId: M:AccountService.Services.IAccountService.GetAccountAsync(System.String)
+  parent: AccountService.Services.IAccountService
+  isExternal: true
+  href: AccountService.Services.IAccountService.html#AccountService_Services_IAccountService_GetAccountAsync_System_String_
+  name: GetAccountAsync(string)
+  nameWithType: IAccountService.GetAccountAsync(string)
+  fullName: AccountService.Services.IAccountService.GetAccountAsync(string)
+  nameWithType.vb: IAccountService.GetAccountAsync(String)
+  fullName.vb: AccountService.Services.IAccountService.GetAccountAsync(String)
+  name.vb: GetAccountAsync(String)
+  spec.csharp:
+  - uid: AccountService.Services.IAccountService.GetAccountAsync(System.String)
+    name: GetAccountAsync
+    href: AccountService.Services.IAccountService.html#AccountService_Services_IAccountService_GetAccountAsync_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: AccountService.Services.IAccountService.GetAccountAsync(System.String)
+    name: GetAccountAsync
+    href: AccountService.Services.IAccountService.html#AccountService_Services_IAccountService_GetAccountAsync_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: AccountService.Services.AccountService.GetAllAccountsAsync*
+  commentId: Overload:AccountService.Services.AccountService.GetAllAccountsAsync
+  href: AccountService.Services.AccountService.html#AccountService_Services_AccountService_GetAllAccountsAsync
+  name: GetAllAccountsAsync
+  nameWithType: AccountService.GetAllAccountsAsync
+  fullName: AccountService.Services.AccountService.GetAllAccountsAsync
+- uid: AccountService.Services.IAccountService.GetAllAccountsAsync
+  commentId: M:AccountService.Services.IAccountService.GetAllAccountsAsync
+  parent: AccountService.Services.IAccountService
+  href: AccountService.Services.IAccountService.html#AccountService_Services_IAccountService_GetAllAccountsAsync
+  name: GetAllAccountsAsync()
+  nameWithType: IAccountService.GetAllAccountsAsync()
+  fullName: AccountService.Services.IAccountService.GetAllAccountsAsync()
+  spec.csharp:
+  - uid: AccountService.Services.IAccountService.GetAllAccountsAsync
+    name: GetAllAccountsAsync
+    href: AccountService.Services.IAccountService.html#AccountService_Services_IAccountService_GetAllAccountsAsync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: AccountService.Services.IAccountService.GetAllAccountsAsync
+    name: GetAllAccountsAsync
+    href: AccountService.Services.IAccountService.html#AccountService_Services_IAccountService_GetAllAccountsAsync
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{AccountService.DTOs.AccountDto}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{AccountService.DTOs.AccountDto}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<IEnumerable<AccountDto>>
+  nameWithType: Task<IEnumerable<AccountDto>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<AccountService.DTOs.AccountDto>>
+  nameWithType.vb: Task(Of IEnumerable(Of AccountDto))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.IEnumerable(Of AccountService.DTOs.AccountDto))
+  name.vb: Task(Of IEnumerable(Of AccountDto))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: AccountService.DTOs.AccountDto
+    name: AccountDto
+    href: AccountService.DTOs.AccountDto.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: AccountService.DTOs.AccountDto
+    name: AccountDto
+    href: AccountService.DTOs.AccountDto.html
+  - name: )
+  - name: )
+- uid: AccountService.Services.AccountService.UpdateAccountAsync*
+  commentId: Overload:AccountService.Services.AccountService.UpdateAccountAsync
+  href: AccountService.Services.AccountService.html#AccountService_Services_AccountService_UpdateAccountAsync_System_String_AccountService_DTOs_UpdateAccountDto_
+  name: UpdateAccountAsync
+  nameWithType: AccountService.UpdateAccountAsync
+  fullName: AccountService.Services.AccountService.UpdateAccountAsync
+- uid: AccountService.Services.IAccountService.UpdateAccountAsync(System.String,AccountService.DTOs.UpdateAccountDto)
+  commentId: M:AccountService.Services.IAccountService.UpdateAccountAsync(System.String,AccountService.DTOs.UpdateAccountDto)
+  parent: AccountService.Services.IAccountService
+  isExternal: true
+  href: AccountService.Services.IAccountService.html#AccountService_Services_IAccountService_UpdateAccountAsync_System_String_AccountService_DTOs_UpdateAccountDto_
+  name: UpdateAccountAsync(string, UpdateAccountDto)
+  nameWithType: IAccountService.UpdateAccountAsync(string, UpdateAccountDto)
+  fullName: AccountService.Services.IAccountService.UpdateAccountAsync(string, AccountService.DTOs.UpdateAccountDto)
+  nameWithType.vb: IAccountService.UpdateAccountAsync(String, UpdateAccountDto)
+  fullName.vb: AccountService.Services.IAccountService.UpdateAccountAsync(String, AccountService.DTOs.UpdateAccountDto)
+  name.vb: UpdateAccountAsync(String, UpdateAccountDto)
+  spec.csharp:
+  - uid: AccountService.Services.IAccountService.UpdateAccountAsync(System.String,AccountService.DTOs.UpdateAccountDto)
+    name: UpdateAccountAsync
+    href: AccountService.Services.IAccountService.html#AccountService_Services_IAccountService_UpdateAccountAsync_System_String_AccountService_DTOs_UpdateAccountDto_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: AccountService.DTOs.UpdateAccountDto
+    name: UpdateAccountDto
+    href: AccountService.DTOs.UpdateAccountDto.html
+  - name: )
+  spec.vb:
+  - uid: AccountService.Services.IAccountService.UpdateAccountAsync(System.String,AccountService.DTOs.UpdateAccountDto)
+    name: UpdateAccountAsync
+    href: AccountService.Services.IAccountService.html#AccountService_Services_IAccountService_UpdateAccountAsync_System_String_AccountService_DTOs_UpdateAccountDto_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: AccountService.DTOs.UpdateAccountDto
+    name: UpdateAccountDto
+    href: AccountService.DTOs.UpdateAccountDto.html
+  - name: )
+- uid: AccountService.DTOs.UpdateAccountDto
+  commentId: T:AccountService.DTOs.UpdateAccountDto
+  parent: AccountService.DTOs
+  href: AccountService.DTOs.UpdateAccountDto.html
+  name: UpdateAccountDto
+  nameWithType: UpdateAccountDto
+  fullName: AccountService.DTOs.UpdateAccountDto
+- uid: AccountService.Services.AccountService.DeleteAccountAsync*
+  commentId: Overload:AccountService.Services.AccountService.DeleteAccountAsync
+  href: AccountService.Services.AccountService.html#AccountService_Services_AccountService_DeleteAccountAsync_System_String_
+  name: DeleteAccountAsync
+  nameWithType: AccountService.DeleteAccountAsync
+  fullName: AccountService.Services.AccountService.DeleteAccountAsync
+- uid: AccountService.Services.IAccountService.DeleteAccountAsync(System.String)
+  commentId: M:AccountService.Services.IAccountService.DeleteAccountAsync(System.String)
+  parent: AccountService.Services.IAccountService
+  isExternal: true
+  href: AccountService.Services.IAccountService.html#AccountService_Services_IAccountService_DeleteAccountAsync_System_String_
+  name: DeleteAccountAsync(string)
+  nameWithType: IAccountService.DeleteAccountAsync(string)
+  fullName: AccountService.Services.IAccountService.DeleteAccountAsync(string)
+  nameWithType.vb: IAccountService.DeleteAccountAsync(String)
+  fullName.vb: AccountService.Services.IAccountService.DeleteAccountAsync(String)
+  name.vb: DeleteAccountAsync(String)
+  spec.csharp:
+  - uid: AccountService.Services.IAccountService.DeleteAccountAsync(System.String)
+    name: DeleteAccountAsync
+    href: AccountService.Services.IAccountService.html#AccountService_Services_IAccountService_DeleteAccountAsync_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: AccountService.Services.IAccountService.DeleteAccountAsync(System.String)
+    name: DeleteAccountAsync
+    href: AccountService.Services.IAccountService.html#AccountService_Services_IAccountService_DeleteAccountAsync_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )

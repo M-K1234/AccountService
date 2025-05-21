@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: AccountService.Controllers
+  commentId: N:AccountService.Controllers
+  id: AccountService.Controllers
+  children:
+  - AccountService.Controllers.AccountsController
+  langs:
+  - csharp
+  - vb
+  name: AccountService.Controllers
+  nameWithType: AccountService.Controllers
+  fullName: AccountService.Controllers
+  type: Namespace
+  assemblies:
+  - AccountService
+references:
+- uid: AccountService.Controllers.AccountsController
+  commentId: T:AccountService.Controllers.AccountsController
+  href: AccountService.Controllers.AccountsController.html
+  name: AccountsController
+  nameWithType: AccountsController
+  fullName: AccountService.Controllers.AccountsController

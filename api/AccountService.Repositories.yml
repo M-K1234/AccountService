@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: AccountService.Repositories
+  commentId: N:AccountService.Repositories
+  id: AccountService.Repositories
+  children:
+  - AccountService.Repositories.AccountRepository
+  - AccountService.Repositories.IAccountRepository
+  langs:
+  - csharp
+  - vb
+  name: AccountService.Repositories
+  nameWithType: AccountService.Repositories
+  fullName: AccountService.Repositories
+  type: Namespace
+  assemblies:
+  - AccountService
+references:
+- uid: AccountService.Repositories.AccountRepository
+  commentId: T:AccountService.Repositories.AccountRepository
+  href: AccountService.Repositories.AccountRepository.html
+  name: AccountRepository
+  nameWithType: AccountRepository
+  fullName: AccountService.Repositories.AccountRepository
+- uid: AccountService.Repositories.IAccountRepository
+  commentId: T:AccountService.Repositories.IAccountRepository
+  parent: AccountService.Repositories
+  href: AccountService.Repositories.IAccountRepository.html
+  name: IAccountRepository
+  nameWithType: IAccountRepository
+  fullName: AccountService.Repositories.IAccountRepository
+- uid: AccountService.Repositories
+  commentId: N:AccountService.Repositories
+  href: AccountService.html
+  name: AccountService.Repositories
+  nameWithType: AccountService.Repositories
+  fullName: AccountService.Repositories
+  spec.csharp:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.Repositories
+    name: Repositories
+    href: AccountService.Repositories.html
+  spec.vb:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.Repositories
+    name: Repositories
+    href: AccountService.Repositories.html

@@ -1,0 +1,63 @@
+### YamlMime:TableOfContent
+items:
+- uid: AccountService.Controllers
+  name: AccountService.Controllers
+  type: Namespace
+  items:
+  - uid: AccountService.Controllers.AccountsController
+    name: AccountsController
+    type: Class
+- uid: AccountService.DTOs
+  name: AccountService.DTOs
+  type: Namespace
+  items:
+  - uid: AccountService.DTOs.AccountDto
+    name: AccountDto
+    type: Class
+  - uid: AccountService.DTOs.CreateAccountDto
+    name: CreateAccountDto
+    type: Class
+  - uid: AccountService.DTOs.UpdateAccountDto
+    name: UpdateAccountDto
+    type: Class
+- uid: AccountService.Data
+  name: AccountService.Data
+  type: Namespace
+  items:
+  - uid: AccountService.Data.ApplicationDbContext
+    name: ApplicationDbContext
+    type: Class
+- uid: AccountService.Models
+  name: AccountService.Models
+  type: Namespace
+  items:
+  - uid: AccountService.Models.Account
+    name: Account
+    type: Class
+  - uid: AccountService.Models.Customer
+    name: Customer
+    type: Class
+  - uid: AccountService.Models.Transaction
+    name: Transaction
+    type: Class
+- uid: AccountService.Repositories
+  name: AccountService.Repositories
+  type: Namespace
+  items:
+  - uid: AccountService.Repositories.AccountRepository
+    name: AccountRepository
+    type: Class
+  - uid: AccountService.Repositories.IAccountRepository
+    name: IAccountRepository
+    type: Interface
+- uid: AccountService.Services
+  name: AccountService.Services
+  type: Namespace
+  items:
+  - uid: AccountService.Services.AccountService
+    name: AccountService
+    type: Class
+  - uid: AccountService.Services.IAccountService
+    name: IAccountService
+    type: Interface
+memberLayout: SamePage

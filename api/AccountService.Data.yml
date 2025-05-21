@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: AccountService.Data
+  commentId: N:AccountService.Data
+  id: AccountService.Data
+  children:
+  - AccountService.Data.ApplicationDbContext
+  langs:
+  - csharp
+  - vb
+  name: AccountService.Data
+  nameWithType: AccountService.Data
+  fullName: AccountService.Data
+  type: Namespace
+  assemblies:
+  - AccountService
+references:
+- uid: AccountService.Data.ApplicationDbContext
+  commentId: T:AccountService.Data.ApplicationDbContext
+  parent: AccountService.Data
+  href: AccountService.Data.ApplicationDbContext.html
+  name: ApplicationDbContext
+  nameWithType: ApplicationDbContext
+  fullName: AccountService.Data.ApplicationDbContext
+- uid: AccountService.Data
+  commentId: N:AccountService.Data
+  href: AccountService.html
+  name: AccountService.Data
+  nameWithType: AccountService.Data
+  fullName: AccountService.Data
+  spec.csharp:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.Data
+    name: Data
+    href: AccountService.Data.html
+  spec.vb:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.Data
+    name: Data
+    href: AccountService.Data.html

@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: AccountService.Models
+  commentId: N:AccountService.Models
+  id: AccountService.Models
+  children:
+  - AccountService.Models.Account
+  - AccountService.Models.Customer
+  - AccountService.Models.Transaction
+  langs:
+  - csharp
+  - vb
+  name: AccountService.Models
+  nameWithType: AccountService.Models
+  fullName: AccountService.Models
+  type: Namespace
+  assemblies:
+  - AccountService
+references:
+- uid: AccountService.Models.Account
+  commentId: T:AccountService.Models.Account
+  parent: AccountService.Models
+  href: AccountService.Models.Account.html
+  name: Account
+  nameWithType: Account
+  fullName: AccountService.Models.Account
+- uid: AccountService.Models.Customer
+  commentId: T:AccountService.Models.Customer
+  parent: AccountService.Models
+  href: AccountService.Models.Customer.html
+  name: Customer
+  nameWithType: Customer
+  fullName: AccountService.Models.Customer
+- uid: AccountService.Models.Transaction
+  commentId: T:AccountService.Models.Transaction
+  href: AccountService.Models.Transaction.html
+  name: Transaction
+  nameWithType: Transaction
+  fullName: AccountService.Models.Transaction
+- uid: AccountService.Models
+  commentId: N:AccountService.Models
+  href: AccountService.html
+  name: AccountService.Models
+  nameWithType: AccountService.Models
+  fullName: AccountService.Models
+  spec.csharp:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.Models
+    name: Models
+    href: AccountService.Models.html
+  spec.vb:
+  - uid: AccountService
+    name: AccountService
+    href: AccountService.html
+  - name: .
+  - uid: AccountService.Models
+    name: Models
+    href: AccountService.Models.html
