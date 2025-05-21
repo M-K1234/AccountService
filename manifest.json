@@ -1,0 +1,340 @@
+{
+  "source_base_path": "C:/Users/ali88/Desktop/Developing large systems/Exam project DLS - Banking system/accountservice",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.Controllers.AccountsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.Controllers.AccountsController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.Controllers.AccountsController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.Controllers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.Controllers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.DTOs.AccountDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.DTOs.AccountDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.DTOs.AccountDto",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.DTOs.CreateAccountDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.DTOs.CreateAccountDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.DTOs.CreateAccountDto",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.DTOs.UpdateAccountDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.DTOs.UpdateAccountDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.DTOs.UpdateAccountDto",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.DTOs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.DTOs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.DTOs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.Data.ApplicationDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.Data.ApplicationDbContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.Data.ApplicationDbContext",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.Data.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.Data",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.Models.Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.Models.Account.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.Models.Account",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.Models.Customer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.Models.Customer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.Models.Customer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.Models.Transaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.Models.Transaction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.Models.Transaction",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.Repositories.AccountRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.Repositories.AccountRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.Repositories.AccountRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.Repositories.IAccountRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.Repositories.IAccountRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.Repositories.IAccountRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.Repositories.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.Repositories",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.Services.AccountService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.Services.AccountService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.Services.AccountService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.Services.IAccountService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.Services.IAccountService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.Services.IAccountService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AccountService.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AccountService.Services.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AccountService.Services",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
